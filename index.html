@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title id="pageTitle">FluchtPlanPro | Flucht- und Rettungspläne nach DIN ISO 23601</title>
+<meta id="metaDesc" name="description" content="Professionelle Flucht- und Rettungspläne, Feuerwehrpläne und Brandschutzpläne nach DIN ISO 23601 und DIN 14095. 12+ Jahre Erfahrung. Lieferung innerhalb von 1–2 Werktagen." />
+<meta name="keywords" content="Flucht- und Rettungsplan, Fluchtplan, Feuerwehrplan, Brandschutz, DIN ISO 23601, DIN 14095, Evakuierungsplan, Fluchtplan Deutschland, Brandschutzplan, Sicherheitsplan" />
+<meta name="robots" content="index, follow" />
+<meta property="og:title" content="FluchtPlanPro | Flucht- und Rettungspläne nach DIN ISO 23601" />
+<meta property="og:description" content="Normgerechte Flucht-, Rettungs- und Feuerwehrpläne für Unternehmen in ganz Deutschland." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://fluchtplanpro.blogspot.com" />
+<meta property="og:image" content="images/sample-fluchtplan.jpg" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%231E7D32'/%3E%3Cpath d='M30 70 L50 30 L70 70 M40 55 H60' stroke='white' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="#home" class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6 20 L12 6 L18 20 M9 15 H15" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      Flucht<span>Plan</span>Pro
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#about" data-i18n="nav.about">Über uns</a>
+      <a href="#services" data-i18n="nav.services">Leistungen</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" class="active" data-lang="de">🇩🇪 <span class="label">Deutsch</span></button>
+        <button type="button" data-lang="en">🇬🇧 <span class="label">English</span></button>
+      </div>
+      <a href="#contact" class="btn btn-primary btn-sm" data-i18n="nav.cta">Kostenloses Angebot</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menü öffnen" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="reveal in">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="hero.eyebrow">DIN ISO 23601 · DIN 14095 · Deutschlandweit</span></span>
+      <h1 data-i18n="hero.title">Professionelle <em>Flucht- und Rettungspläne</em> nach DIN ISO 23601</h1>
+      <p class="sub" data-i18n="hero.sub">Wir erstellen normgerechte Flucht- und Rettungspläne sowie Feuerwehrpläne für Unternehmen, Büros, Industrieanlagen und öffentliche Gebäude in ganz Deutschland.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.btn1"><i class="fa-solid fa-file-signature"></i> Angebot anfordern</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.btn2">Kontakt aufnehmen</a>
+      </div>
+      <ul class="hero-stats">
+        <li><i class="fa-solid fa-circle-check"></i><span data-i18n="hero.stat1">12+ Jahre Erfahrung</span></li>
+        <li><i class="fa-solid fa-circle-check"></i><span data-i18n="hero.stat2">Lieferung in 1–2 Werktagen</span></li>
+        <li><i class="fa-solid fa-circle-check"></i><span data-i18n="hero.stat3">Deutschlandweit</span></li>
+        <li><i class="fa-solid fa-circle-check"></i><span data-i18n="hero.stat4">DIN-konforme Pläne</span></li>
+      </ul>
+    </div>
+
+    <div class="reveal in" style="position:relative;">
+      <div class="plan-card">
+        <div class="plan-header">
+          <span class="tag" data-i18n="hero.plantag">FLUCHTPLAN — GRUNDRISS</span>
+          <span class="norm">DIN ISO 23601</span>
+        </div>
+        <div class="plan-svg-wrap">
+          <img src="images/sample-fluchtplan.jpg" alt="Beispiel eines Flucht- und Rettungsplans nach DIN ISO 23601" class="hero-plan-img">
+        </div>
+        <div class="plan-legend">
+          <span><i class="sw route"></i> <span data-i18n="hero.legend1">Fluchtweg</span></span>
+          <span><i class="sw exit" style="background:#1E7D32;"></i> <span data-i18n="hero.legend2">Notausgang</span></span>
+          <span><i class="sw exit"></i> <span data-i18n="hero.legend3">Feuerlöscher</span></span>
+        </div>
+      </div>
+      <div class="floater f1"><i class="fa-solid fa-shield-halved"></i> <span data-i18n="hero.float1">DIN-geprüft</span></div>
+      <div class="floater f2"><i class="fa-regular fa-clock"></i> <span data-i18n="hero.float2">1–2 Werktage</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TRUST STRIP ===================== -->
+<div class="trust-strip">
+  <div class="container">
+    <div class="item"><i class="fa-solid fa-award"></i><div><strong data-i18n="trust.1a">12+ Jahre</strong><small data-i18n="trust.1b">Branchenerfahrung</small></div></div>
+    <div class="item"><i class="fa-solid fa-truck-fast"></i><div><strong data-i18n="trust.2a">1–2 Werktage</strong><small data-i18n="trust.2b">Lieferzeit</small></div></div>
+    <div class="item"><i class="fa-solid fa-map-location-dot"></i><div><strong data-i18n="trust.3a">Deutschlandweit</strong><small data-i18n="trust.3b">Für jedes Bundesland</small></div></div>
+    <div class="item"><i class="fa-solid fa-stamp"></i><div><strong data-i18n="trust.4a">DIN-konform</strong><small data-i18n="trust.4b">ISO 23601 &amp; 14095</small></div></div>
+  </div>
+</div>
+
+<!-- ===================== SAMPLE PLAN ===================== -->
+<section class="section" id="sample">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="sample.eyebrow">Beispielprojekt</span></span>
+      <h2 data-i18n="sample.title">So sieht ein fertiger Fluchtplan aus</h2>
+      <p data-i18n="sample.sub">Ein reales Beispiel aus unserer Arbeit: Grundriss mit eingezeichneten Fluchtwegen, Notausgängen und Verhaltenshinweisen im Brandfall.</p>
+    </div>
+    <div class="sample-plan-wrap reveal">
+      <button type="button" class="sample-plan-frame" id="samplePlanTrigger" aria-label="Fluchtplan vergrößern">
+        <img src="images/sample-fluchtplan.jpg" alt="Beispiel eines Flucht- und Rettungsplans nach DIN ISO 23601" loading="lazy">
+        <span class="sample-plan-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i> <span data-i18n="sample.zoom">Vergrößern</span></span>
+      </button>
+      <div class="sample-plan-caption">
+        <div class="din-badges">
+          <span class="din-badge"><i class="fa-solid fa-certificate"></i> DIN ISO 23601</span>
+          <span class="din-badge"><i class="fa-solid fa-route"></i> <span data-i18n="sample.badge1">Fluchtwege</span></span>
+          <span class="din-badge"><i class="fa-solid fa-fire-extinguisher"></i> <span data-i18n="sample.badge2">Brandschutzkennzeichen</span></span>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-sm" data-i18n="sample.cta">Eigenen Plan anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Schließen"><i class="fa-solid fa-xmark"></i></button>
+  <img src="images/sample-fluchtplan.jpg" alt="Beispiel eines Flucht- und Rettungsplans nach DIN ISO 23601">
+</div>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section" id="about">
+  <div class="container about-grid">
+    <div class="reveal about-graphic">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="about.eyebrow">Über FluchtPlanPro</span></span>
+      <h3 style="font-size:22px;margin-bottom:10px;" data-i18n="about.cardtitle">Normgerecht. Verlässlich. Aus Deutschland.</h3>
+      <p style="color:var(--gray-600);font-size:14.5px;" data-i18n="about.cardsub">Jeder Plan wird individuell nach Ihrem Gebäudegrundriss erstellt und geprüft.</p>
+      <div class="stat-row">
+        <div class="stat"><b>12+</b><span data-i18n="about.stat1">Jahre Erfahrung</span></div>
+        <div class="stat"><b>1–2</b><span data-i18n="about.stat2">Werktage Lieferzeit</span></div>
+        <div class="stat"><b>100%</b><span data-i18n="about.stat3">DIN-konform</span></div>
+        <div class="stat"><b>DE</b><span data-i18n="about.stat4">Deutschlandweit</span></div>
+      </div>
+    </div>
+    <div class="reveal about-copy">
+      <h2 data-i18n="about.title">Über FluchtPlanPro</h2>
+      <p data-i18n="about.p1">Mit mehr als 12 Jahren Erfahrung erstellen wir professionelle Flucht- und Rettungspläne nach DIN ISO 23601 sowie Feuerwehrpläne nach DIN 14095.</p>
+      <p data-i18n="about.p2">Wir unterstützen Unternehmen, Fabriken, Hotels, Schulen, Krankenhäuser und Bürogebäude in ganz Deutschland mit hochwertigen, normgerechten Sicherheitsplänen — präzise, geprüft und termingerecht geliefert.</p>
+      <div class="din-badges">
+        <span class="din-badge"><i class="fa-solid fa-certificate"></i> DIN ISO 23601</span>
+        <span class="din-badge"><i class="fa-solid fa-certificate"></i> DIN 14095</span>
+        <span class="din-badge"><i class="fa-solid fa-certificate"></i> ASR A2.3</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="section bg-tint" id="services">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="services.eyebrow">Unsere Leistungen</span></span>
+      <h2 data-i18n="services.title">Sicherheitspläne für jedes Gebäude</h2>
+      <p data-i18n="services.sub">Von der Bestandsaufnahme bis zur druckfertigen Datei — alles aus einer Hand.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-person-running"></i></div>
+        <h3 data-i18n="svc.1.title">Flucht- und Rettungspläne</h3>
+        <p data-i18n="svc.1.desc">Normgerechte Fluchtpläne nach DIN ISO 23601 für Büros, Industrie und öffentliche Gebäude.</p>
+        <a href="#contact" class="card-cta"><span data-i18n="svc.cta">Jetzt anfragen</span> <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-truck-medical"></i></div>
+        <h3 data-i18n="svc.2.title">Feuerwehrpläne</h3>
+        <p data-i18n="svc.2.desc">Feuerwehrpläne nach DIN 14095 zur schnellen Orientierung im Einsatzfall.</p>
+        <a href="#contact" class="card-cta"><span data-i18n="svc.cta">Jetzt anfragen</span> <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-people-group"></i></div>
+        <h3 data-i18n="svc.3.title">Evakuierungspläne</h3>
+        <p data-i18n="svc.3.desc">Klare Evakuierungswege und Sammelplätze für Ihr gesamtes Gebäude.</p>
+        <a href="#contact" class="card-cta"><span data-i18n="svc.cta">Jetzt anfragen</span> <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-fire-extinguisher"></i></div>
+        <h3 data-i18n="svc.4.title">Brandschutzpläne</h3>
+        <p data-i18n="svc.4.desc">Vollständige Brandschutzpläne inklusive Kennzeichnung aller Sicherheitseinrichtungen.</p>
+        <a href="#contact" class="card-cta"><span data-i18n="svc.cta">Jetzt anfragen</span> <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3 data-i18n="svc.5.title">Sicherheitspläne</h3>
+        <p data-i18n="svc.5.desc">Individuelle Sicherheitspläne für Hotels, Schulen, Krankenhäuser und Fabriken.</p>
+        <a href="#contact" class="card-cta"><span data-i18n="svc.cta">Jetzt anfragen</span> <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+        <h3 data-i18n="svc.6.title">Aktualisierung bestehender Pläne</h3>
+        <p data-i18n="svc.6.desc">Wir prüfen und aktualisieren vorhandene Pläne nach aktuellem DIN-Standard.</p>
+        <a href="#contact" class="card-cta"><span data-i18n="svc.cta">Jetzt anfragen</span> <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY CHOOSE US ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="why.eyebrow">Warum FluchtPlanPro</span></span>
+      <h2 data-i18n="why.title">Darauf können Sie sich verlassen</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal"><i class="fa-solid fa-medal"></i><span data-i18n="why.1">12+ Jahre Erfahrung</span></div>
+      <div class="why-item reveal"><i class="fa-solid fa-bolt"></i><span data-i18n="why.2">Lieferung in 1–2 Werktagen</span></div>
+      <div class="why-item reveal"><i class="fa-solid fa-check-double"></i><span data-i18n="why.3">DIN ISO 23601</span></div>
+      <div class="why-item reveal"><i class="fa-solid fa-house-fire"></i><span data-i18n="why.4">DIN 14095</span></div>
+      <div class="why-item reveal"><i class="fa-solid fa-user-tie"></i><span data-i18n="why.5">Professioneller Service</span></div>
+      <div class="why-item reveal"><i class="fa-solid fa-comments"></i><span data-i18n="why.6">Schnelle Kommunikation</span></div>
+      <div class="why-item reveal"><i class="fa-solid fa-drafting-compass"></i><span data-i18n="why.7">Individuelle Lösungen</span></div>
+      <div class="why-item reveal"><i class="fa-solid fa-sack-dollar"></i><span data-i18n="why.8">Faire Preise</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section class="section bg-tint">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="process.eyebrow">Ablauf</span></span>
+      <h2 data-i18n="process.title">In vier Schritten zum fertigen Plan</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <div class="process-num">01</div>
+        <h4 data-i18n="process.1.title">Gebäudeplan senden</h4>
+        <p data-i18n="process.1.desc">Sie senden uns Ihren bestehenden Grundriss oder Gebäudeplan zu.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num">02</div>
+        <h4 data-i18n="process.2.title">Planerstellung</h4>
+        <p data-i18n="process.2.desc">Unsere Experten erstellen Ihren Flucht- und Rettungsplan normgerecht.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num">03</div>
+        <h4 data-i18n="process.3.title">Qualitätsprüfung</h4>
+        <p data-i18n="process.3.desc">Jeder Plan wird sorgfältig auf DIN-Konformität geprüft.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num">04</div>
+        <h4 data-i18n="process.4.title">Lieferung</h4>
+        <p data-i18n="process.4.desc">Sie erhalten Ihren Plan als PDF und druckfertige Datei.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="testi.eyebrow">Kundenstimmen</span></span>
+      <h2 data-i18n="testi.title">Was unsere Kunden sagen</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <p data-i18n="testi.1.text">"Schnelle Bearbeitung und ein absolut normgerechter Fluchtplan. Die Kommunikation war unkompliziert und professionell."</p>
+        <div class="testi-person">
+          <div class="avatar">MW</div>
+          <div><strong>Michael Weber</strong><small data-i18n="testi.1.role">Facility Management, Hamburg</small></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <p data-i18n="testi.2.text">"Wir haben unsere Feuerwehrpläne für drei Standorte erneuern lassen. Termintreue und Qualität waren vorbildlich."</p>
+        <div class="testi-person">
+          <div class="avatar">SK</div>
+          <div><strong>Sandra Klein</strong><small data-i18n="testi.2.role">Betriebsleitung, München</small></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <p data-i18n="testi.3.text">"Kompetente Beratung von Anfang an. Der Plan wurde exakt nach unserem Grundriss und DIN-Vorgaben umgesetzt."</p>
+        <div class="testi-person">
+          <div class="avatar">TH</div>
+          <div><strong>Thomas Hoffmann</strong><small data-i18n="testi.3.role">Geschäftsführer, Köln</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA BANNER ===================== -->
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div>
+        <h3 data-i18n="cta.title">Bereit für Ihren normgerechten Fluchtplan?</h3>
+        <p data-i18n="cta.sub">Fordern Sie jetzt Ihr kostenloses Angebot an — Antwort innerhalb von 24 Stunden.</p>
+      </div>
+      <div class="actions">
+        <a href="#contact" class="btn btn-white" data-i18n="cta.btn1">Angebot anfordern</a>
+        <a href="https://wa.me/923181717910" target="_blank" rel="noopener" class="btn btn-ghost-dark"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section bg-tint" id="contact">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span> <span data-i18n="contact.eyebrow">Kontakt</span></span>
+      <h2 data-i18n="contact.title">Fordern Sie Ihr kostenloses Angebot an</h2>
+      <p data-i18n="contact.sub">Senden Sie uns Ihren Gebäudeplan — wir melden uns innerhalb kurzer Zeit mit einem individuellen Angebot.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info-card reveal">
+        <h3 data-i18n="contact.infotitle">Kontaktdaten</h3>
+        <p data-i18n="contact.infosub">Wir sind für Sie erreichbar — deutschlandweit.</p>
+        <div class="info-row">
+          <i class="fa-solid fa-envelope"></i>
+          <div><strong data-i18n="contact.emaillabel">E-Mail</strong><a href="mailto:fireevacs@gmail.com">fireevacs@gmail.com</a></div>
+        </div>
+        <div class="info-row">
+          <i class="fa-brands fa-whatsapp"></i>
+          <div><strong data-i18n="contact.phonelabel">Telefon / WhatsApp</strong><a href="https://wa.me/923181717910">+92 318 1717910</a></div>
+        </div>
+        <div class="info-row">
+          <i class="fa-solid fa-clock"></i>
+          <div><strong data-i18n="contact.hourslabel">Antwortzeit</strong><span data-i18n="contact.hoursval">Innerhalb von 24 Stunden</span></div>
+        </div>
+        <div class="din-badges" style="margin-top:10px;">
+          <span class="din-badge" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);color:#fff;"><i class="fa-solid fa-certificate"></i> DIN ISO 23601</span>
+          <span class="din-badge" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);color:#fff;"><i class="fa-solid fa-certificate"></i> DIN 14095</span>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate="novalidate">
+        <div class="form-success" id="formSuccess"><i class="fa-solid fa-circle-check"></i> <span data-i18n="contact.success">Vielen Dank! Ihre Anfrage wurde erfolgreich übermittelt.</span></div>
+        <div class="form-row">
+          <div class="field">
+            <label for="fname" data-i18n="contact.name">Name</label>
+            <input type="text" id="fname" name="name" required="required" />
+            <span class="err" data-i18n="contact.errname">Bitte geben Sie Ihren Namen ein.</span>
+          </div>
+          <div class="field">
+            <label for="fcompany" data-i18n="contact.company">Firma</label>
+            <input type="text" id="fcompany" name="company" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="femail" data-i18n="contact.email">E-Mail</label>
+            <input type="email" id="femail" name="email" required="required" />
+            <span class="err" data-i18n="contact.erremail">Bitte geben Sie eine gültige E-Mail-Adresse ein.</span>
+          </div>
+          <div class="field">
+            <label for="fphone" data-i18n="contact.phone">Telefon</label>
+            <input type="tel" id="fphone" name="phone" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="fmessage" data-i18n="contact.message">Nachricht</label>
+          <textarea id="fmessage" name="message" required="required"></textarea>
+          <span class="err" data-i18n="contact.errmessage">Bitte teilen Sie uns Ihr Anliegen mit.</span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;" data-i18n="contact.submit">Anfrage senden</button>
+        <p class="form-note" data-i18n="contact.note">Mit dem Absenden stimmen Sie zu, dass wir Sie zu Ihrer Anfrage kontaktieren dürfen.</p>
+      </form>
+    </div>
+
+    <div class="social-row reveal">
+      <a href="https://www.fiverr.com/s/m5qX5Pb" target="_blank" rel="noopener" class="social-circle" aria-label="Fiverr">Fiverr</a>
+      <a href="https://www.upwork.com/services/product/design-evacuation-plan-with-nfpa-101-life-safety-codes-1658392766212603904?ref=project_share" target="_blank" rel="noopener" class="social-circle" aria-label="Upwork">Upwork</a>
+      <a href="https://wa.me/923181417910" target="_blank" rel="noopener" class="social-circle" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6 20 L12 6 L18 20 M9 15 H15" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        FluchtPlanPro
+      </div>
+      <p class="tagline" data-i18n="footer.tagline">Professionelle Flucht- und Rettungspläne nach DIN ISO 23601 — deutschlandweit, normgerecht und zuverlässig.</p>
+    </div>
+    <div class="col">
+      <h4 data-i18n="footer.linkstitle">Quick Links</h4>
+      <ul>
+        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+        <li><a href="#about" data-i18n="nav.about">Über uns</a></li>
+        <li><a href="#services" data-i18n="nav.services">Leistungen</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h4 data-i18n="footer.contacttitle">Kontakt</h4>
+      <ul>
+        <li><a href="mailto:fireevacs@gmail.com">fireevacs@gmail.com</a></li>
+        <li><a href="https://wa.me/923181717910">WhatsApp: +92 318 1717910</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container bottom-bar">
+    <span data-i18n="footer.copy">© 2026 FluchtPlanPro. Alle Rechte vorbehalten.</span>
+    <span data-i18n="footer.made">Gestaltet für maximale Sicherheit und Normkonformität.</span>
+  </div>
+</footer>
+
+<!-- ===================== FLOATING BUTTONS ===================== -->
+<div class="fab-stack">
+  <a class="fab fab-whatsapp" href="https://wa.me/923181717910" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="fab fab-top" id="toTop" aria-label="Nach oben"><i class="fa-solid fa-arrow-up"></i></button>
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
